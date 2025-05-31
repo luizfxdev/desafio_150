@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caça ao Tesouro no Espaço</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caça ao Tesouro Intergaláctico</h1>
+        <p class="description">Descubra a soma dos palíndromos para encontrar o tesouro perdido da galáxia Zenix!</p>
+        
+        <div class="input-group">
+            <label for="start">Início do intervalo:</label>
+            <input type="number" id="start" placeholder="Número inicial">
+        </div>
+        
+        <div class="input-group">
+            <label for="end">Fim do intervalo:</label>
+            <input type="number" id="end" placeholder="Número final">
+        </div>
+        
+        <div class="button-group">
+            <button id="calculate" style="--clr:#00ff88"><span>CALCULAR</span><i></i></button>
+            <button id="reset" style="--clr:#ff0044"><span>RETORNAR</span><i></i></button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result"></div>
+            <div id="calculation"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
